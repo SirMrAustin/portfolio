@@ -1,0 +1,15 @@
+.cows {
+    color: blue; 
+    font-family: sans-serif;
+    background-image: url('https://c.files.bbci.co.uk/4C7A/production/_114587591_gettyimages-676894393.jpg');
+      background-size: cover;
+    height: 200px;
+      
+  }
+  
+  .jesus {
+    background-image: url(https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyMTM1NDU2MTk1MDI4Mjcw/jesus-his-life-promo-ikj_ep08_11222018_jsm_0999.jpg);
+    background-size: cover;
+      height: 200px;
+    background-position: center;
+  }
