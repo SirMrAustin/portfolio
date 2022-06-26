@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
 .cows {
     color: rgb(255, 255, 255); 
     font-family: sans-serif;
@@ -8,9 +15,56 @@
       
   }
   
-  .jesus {
-    background-image: url(https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyMTM1NDU2MTk1MDI4Mjcw/jesus-his-life-promo-ikj_ep08_11222018_jsm_0999.jpg);
-    background-size: cover;
-      height: 200px;
-    background-position: center;
-  }
+.jesus {
+  background-image: url(https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyMTM1NDU2MTk1MDI4Mjcw/jesus-his-life-promo-ikj_ep08_11222018_jsm_0999.jpg);
+  background-size: cover;
+    height: 200px;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #001660;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3{
+  color: #afeeee;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button{
+  padding: 15px;
+  background: #f08080;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
