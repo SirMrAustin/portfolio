@@ -8,11 +8,47 @@
     color: steelblue;
 }
 
+nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    padding: 25px 25px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
 img {
     width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 p {
     width: 80%;
 }
 
+a {
+    font-size: 1.5em;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
